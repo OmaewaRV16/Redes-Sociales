@@ -1,0 +1,267 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter', sans-serif;
+background:#000;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:30px 20px;
+color:#ccff34;
+position:relative;
+overflow-x:hidden;
+}
+
+/* FIGURAS */
+.decor{
+position:absolute;
+z-index:0;
+pointer-events:none;
+opacity:0.9;
+}
+
+.decor-top{
+top:0;
+left:0;
+width:200px;
+}
+
+.decor-bottom{
+bottom:-80px;
+right:0;
+width:200px;
+}
+
+/* LOGO */
+.logo-main{
+width:600px;
+max-width:90%;
+position:relative;
+z-index:1;
+}
+
+h2{
+font-family:'Montserrat', sans-serif;
+font-weight:900;
+font-size:20px;
+padding:15px 0;
+position:relative;
+z-index:1;
+}
+
+/* TEXTO */
+.descripcion{
+font-size:16px;
+line-height:1.7;
+max-width:600px;
+text-align:center;
+margin-bottom:25px;
+font-weight:500;
+position:relative;
+z-index:1;
+}
+
+/* TITULOS */
+.section-title{
+font-family:'Montserrat', sans-serif;
+font-weight:900;
+font-size:18px;
+letter-spacing:2px;
+text-transform:uppercase;
+margin-bottom:10px;
+position:relative;
+z-index:1;
+}
+
+/* IMAGEN CEL */
+.imagen-cel{
+width:500px;
+margin-bottom:10px;
+position:relative;
+z-index:1;
+}
+
+.imagen-cel img{
+width:100%;
+border-radius:20px;
+}
+
+/* 🔥 BOTONES OFICIALES */
+.store-buttons{
+display:flex;
+gap:30px;
+width:100%;
+max-width:500px;
+justify-content:center;
+align-items:center;
+margin:10px 0 20px 0;
+position:relative;
+z-index:1;
+}
+
+.store-buttons a{
+flex:1;
+display:flex;
+align-items:center;
+justify-content:center;
+transition:0.25s ease;
+}
+
+/* 🔥 ICONOS GRANDES (BIEN) */
+.store-buttons img{
+height:100px; /* 🔥 grande pero sin romper */
+width:auto;
+object-fit:contain;
+display:block;
+border-radius: 20px;
+}
+
+.store-buttons a:hover img{
+transform:scale(1.05);
+}
+
+/* LINKS */
+.links{
+width:100%;
+max-width:500px;
+margin-top:10px;
+position:relative;
+z-index:1;
+margin-bottom: 20px
+}
+
+.links a i{
+font-size:40px;
+margin-right:8px;
+}   
+
+.links a{
+display:block;
+padding:16px;
+margin:10px 0;
+background:#ccff34;
+border-radius:14px;
+text-decoration:none;
+color:#000;
+font-family:'Montserrat', sans-serif;
+font-weight:800;
+transition:0.2s ease;
+text-align:center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+}
+
+.links a:hover{
+transform:translateY(-3px);
+background:#000;
+color:#ccff34;
+}
+
+
+
+/* REDES */
+.social-bar{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+position:relative;
+z-index:1;
+}
+
+.social-bar a{
+font-size:50px; /* 🔥 recupera tamaño de iconos */
+color:#ccff34;
+transition:0.2s ease;
+}
+
+.social-bar a:hover{
+transform:scale(1.2);
+}
+
+/* ICONO */
+.logo-icon{
+width: 300px;
+margin:20px 0 10px 0;
+position:relative;
+z-index:1;
+}
+
+/* FOOTER */
+footer{
+margin-top:15px;
+font-family:'Montserrat', sans-serif;
+font-size:16px;
+font-weight:700;
+opacity:0.7;
+position:relative;
+z-index:1;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width:768px){
+
+.logo-main{
+width:320px;
+}
+
+.section-title{
+font-size:16px;
+text-align:center;
+}
+
+h2{
+font-size:22px;
+text-align:center;
+}
+
+.descripcion{
+font-size:15px;
+}
+
+.imagen-cel{
+width:90%;
+}
+
+.links a{
+font-size:18px;
+padding:12px;
+}
+
+/* 🔥 BOTONES EN CELULAR */
+.store-buttons{
+flex-direction:column;
+gap:15px;
+max-width:320px;
+}
+
+.store-buttons img{
+width:100%;
+height:auto;
+max-width:280px;
+}
+
+/* figuras */
+.decor-top{
+width:60px;
+top:0;
+left:5px;
+}
+
+.decor-bottom{
+width:60px;
+bottom:-40px;
+right:5px;
+}
+
+.logo-icon {
+width:200px;
+}
+
+}

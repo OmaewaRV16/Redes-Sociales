@@ -1,381 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sociedad Valiente</title>
 
-<title>Cuponera Sociedad Valiente</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
 
-<link rel="icon" type="image/png" href="images/favicon.png?v=1">
-<link rel="shortcut icon" href="images/favicon.png?v=1">
-<link rel="apple-touch-icon" href="images/favicon.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-
+<!-- 🔥 ICONOS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<style>
+<!-- FUENTES -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
-font-family:'Inter',sans-serif;
-background:#000000;
-display:flex;
-justify-content:center;
-padding:40px 15px;
-}
-
-.container{
-
-max-width:1200px;
-width:100%;
-
-background:#000000;
-
-padding:40px;
-
-border-radius:30px;
-
-text-align:center;
-
-}
-
-/* LOGO */
-
-.logo{
-width:500px;
-max-width:100%;
-}
-
-/* TITULO */
-
-.titulo{
-font-family:'Montserrat',sans-serif;
-font-size:26px;
-font-weight:800;
-margin-bottom:15px;
-letter-spacing:1px;
-color:#ccff34;
-}
-
-/* DESCRIPCION */
-
-.descripcion{
-max-width:700px;
-margin:0 auto 25px auto;
-font-size:16px;
-line-height:1.6;
-color:#ccff34;
-}
-
-/* LINKS SERGIO */
-
-.links{
-max-width:600px;
-margin:20px auto 40px auto;
-}
-
-.links a{
-display:block;
-padding:14px;
-margin:10px 0;
-background:#ccff34;
-border-radius:14px;
-color:#000;
-text-decoration:none;
-font-family:'Montserrat';
-font-weight:700;
-transition:.25s;
-}
-
-.links a:hover{
-transform:scale(1.03);
-}
-
-.links i{
-margin-right:10px;
-font-size:25px;
-}
-
-/* GRID CUPONES */
-
-.cuponera{
-
-display:grid;
-grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-gap:20px;
-
-}
-
-.cupon{
-
-border-radius:18px;
-overflow:hidden;
-transition:0.25s;
-aspect-ratio:3/1.35;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-padding:8px;
-
-}
-
-.cupon:hover{
-transform:scale(1.05);
-}
-
-.cupon img{
-width:100%;
-height:100%;
-object-fit:contain;
-}
-
-/* REDES SOCIEDAD VALIENTE */
-
-.section-title{
-
-margin-top:50px;
-font-family:'Montserrat';
-font-weight:800;
-font-size:14px;
-letter-spacing:2px;
-margin-bottom:15px;
-color:#ccff34;
-
-}
-
-.logo-icon{
-width:120px;
-margin:20px auto;
-}
-
-.social-bar{
-
-display:flex;
-justify-content:center;
-gap:30px;
-margin-bottom:30px;
-
-}
-
-.social-bar a{
-
-font-size:42px;
-color:#ccff34;
-transition:.25s;
-
-}
-
-.social-bar a:hover{
-
-transform:scale(1.2);
-
-}
-
-/* FOOTER */
-
-footer{
-
-margin-top:30px;
-font-family:'Montserrat';
-font-weight:700;
-font-size:20px;
-color:#ccff34;
-
-}
-
-/* ---------- TABLET ---------- */
-
-@media (max-width:900px){
-
-.cuponera{
-grid-template-columns:repeat(2,1fr);
-}
-
-.logo{
-width:420px;
-}
-
-}
-
-/* ---------- CELULAR ---------- */
-
-@media (max-width:600px){
-
-body{
-padding:20px 10px;
-}
-
-.container{
-padding:20px;
-border-radius:20px;
-}
-
-.logo{
-width:320px;
-}
-
-.titulo{
-font-size:22px;
-}
-
-.descripcion{
-font-size:15px;
-}
-
-.links a{
-font-size:14px;
-}
-
-.cuponera{
-grid-template-columns:1fr;
-}
-
-.social-bar a{
-font-size:36px;
-}
-
-}
-
-</style>
-
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<div class="container">
+<!-- FIGURAS -->
+<img src="images/Formas-Color-Verde_06.png" class="decor decor-top" alt="">
+<img src="images/Formas-Color-Verde_03.png" class="decor decor-bottom" alt="">
 
-<img src="images/Logotipo-Amarillo.png" class="logo">
+<!-- LOGO -->
+<img src="images/Logotipo-Amarillo.png" class="logo-main" alt="Sociedad Valiente">
 
-<div class="titulo">
-CUPONERA SOCIEDAD VALIENTE
-</div>
+<h2>CUPONERA SOCIEDAD VALIENTE</h2>
 
+<!-- DESCRIPCIÓN -->
 <p class="descripcion">
-Sociedad Valiente nace como un colectivo ciudadano impulsado por Sergio Vadillo, donde la ayuda no depende de ideologías ni colores, sino de la voluntad de las personas. Somos comunidad, somos acción y somos apoyo real cuando más se necesita.
-Porque cuando la ciudadanía se organiza, las cosas suceden.
+Sociedad Valiente nace como un colectivo ciudadano impulsado por Sergio Vadillo, donde la ayuda no depende de ideologías ni colores, sino de la voluntad de las personas. Somos comunidad, somos acción y somos apoyo real cuando más se necesita. Porque cuando la ciudadanía se organiza, las cosas suceden.
 <br>
 #AyudarEsAyudar
 </p>
 
-<!-- CUPONES -->
+<!-- DESCARGA -->
+<div class="section-title">Descarga nuestra app</div>
 
-<div class="cuponera">
-
-<div class="cupon"><img src="cupones/CUPON1_SAURI.png"></div>
-<div class="cupon"><img src="cupones/CUPON2_TERAPIAS.png"></div>
-<div class="cupon"><img src="cupones/CUPON3_OPTICASROCHAR.png"></div>
-<div class="cupon"><img src="cupones/CUPON4_RAYOXPRESS.png"></div>
-<div class="cupon"><img src="cupones/CUPON5_MV_CLINICADENTAL.png"></div>
-<div class="cupon"><img src="cupones/CUPON6_BIONERGIA.png"></div>
-<div class="cupon"><img src="cupones/CUPON7_DENTALSKY.png"></div>
-<div class="cupon"><img src="cupones/CUPON8_DIAMAND.png"></div>
-<div class="cupon"><img src="cupones/CUPON9_ESPINILLERASIDEANDO.png"></div>
-<div class="cupon"><img src="cupones/CUPON10_FRESHCLEAN.png"></div>
-<div class="cupon"><img src="cupones/CUPON11_FUERZAIMPARABLE.png"></div>
-<div class="cupon"><img src="cupones/CUPON12_LIIZVERDE.png"></div>
-<div class="cupon"><img src="cupones/CUPON13_STYLYSTAS_SALON.png"></div>
-<div class="cupon"><img src="cupones/CUPON14_CHANCLAS.png"></div>
-<div class="cupon"><img src="cupones/CUPON15_MYN_ABOGADOS.png"></div>
-<div class="cupon"><img src="cupones/CUPON16_FERNANDOCASTREJON.png"></div>
-<div class="cupon"><img src="cupones/CUPON17_LABENDITACOCHINITA.png"></div>
-<div class="cupon"><img src="cupones/CUPON18_LOSREYESDELMAR.png"></div>
-<div class="cupon"><img src="cupones/CUPON19_JONATHANROSADO.png"></div>
-<div class="cupon"><img src="cupones/CUPON20_SIMPLAGA.png"></div>
-<div class="cupon"><img src="cupones/CUPON21_SOLUCIONESROSADO.png"></div>
-<div class="cupon"><img src="cupones/CUPON22_VM_MOTOS.png"></div>
-<div class="cupon"><img src="cupones/CUPON23_MARIANOSOTO.png"></div>
-<div class="cupon"><img src="cupones/CUPON24_ENERPLUS.png"></div>
-<div class="cupon"><img src="cupones/CUPON25_VIDRIOSYALUMINIOS.png"></div>
-<div class="cupon"><img src="cupones/CUPON26_BOXINGCLUB.png"></div>
-<div class="cupon"><img src="cupones/CUPON26_UNID.png"></div>
-<div class="cupon"><img src="cupones/CUPON44-LITTLEPENGUIN1.png"></div>
-<div class="cupon"><img src="cupones/CUPON44-LITTLEPENGUIN2.png"></div>
-<div class="cupon"><img src="cupones/CUPON28_DIPLOMADO.png"></div>
-<div class="cupon"><img src="cupones/CUPON29_PROFESIONALESDELABELLEZA_YUC.png"></div>
-<div class="cupon"><img src="cupones/CUPON30_ADULTOSMAYORES.png"></div>
-<div class="cupon"><img src="cupones/CUPON31_MIRADA_ACTICA.png"></div>
-<div class="cupon"><img src="cupones/CUPON32_SSG-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON33_YAMABOJORQUEZ-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON34_TERAPIASHOLISTICAS-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON35_RIVCA-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON36_JRTRANSFER-01.png"></div>
-<div class="cupon"><img src="cupones/PHOTO-2026-04-13-18-37-29 2.jpg"></div>
-<div class="cupon"><img src="cupones/PHOTO-2026-04-13-18-37-29.jpg"></div>
-<div class="cupon"><img src="cupones/CUPON38_DAVIDTORAYAFISIOTERAPEUTA-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON39-CEDIMMONT-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON40-DISELÑOBASICO-02.png"></div>
-<div class="cupon"><img src="cupones/CUPON41-MIC-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON42-BARBERGALERY.png"></div>
-<div class="cupon"><img src="cupones/CUPON43-MACHOSPITALES.png"></div>
-<div class="cupon"><img src="cupones/CUPON45-BOX-01.png"></div>
-<div class="cupon"><img src="cupones/CUPON46-JM_PSICOLOGO-02.png"></div>
-<div class="cupon"><img src="cupones/CUPON47-PEQUEÑOS.png"></div>
+<div class="imagen-cel">
+<img src="images/Celular-App.png" alt="">
 </div>
 
-<!-- REDES SERGIO -->
+<div class="store-buttons">
 
+<a href="https://apps.apple.com/mx/app/sociedad-valiente/id6757654949" target="_blank">
+<img src="images/icono-descarga-ios.png" alt="App Store">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.anonymous.AppSomosValientes&hl=es_MX" target="_blank">
+<img src="images/icono-descarga-android.png" alt="Google Play">
+</a>
+
+</div>
+
+<!-- LINKS -->
 <div class="links">
-
-<a href="https://www.facebook.com/SergioVadilloL" target="_blank" rel="noopener">
+<a href="https://www.facebook.com/SergioVadilloL" target="_blank">
 <i class="fab fa-facebook"></i> Facebook de Sergio Vadillo
 </a>
 
-<a href="https://www.instagram.com/sergiovadillolora" target="_blank" rel="noopener">
+<a href="https://www.instagram.com/sergiovadillolora" target="_blank">
 <i class="fab fa-instagram"></i> Instagram de Sergio Vadillo
 </a>
 
-<a href="https://www.tiktok.com/@sergiovadillolora_" target="_blank" rel="noopener">
+<a href="https://www.tiktok.com/@sergiovadillolora_" target="_blank">
 <i class="fab fa-tiktok"></i> TikTok de Sergio Vadillo
 </a>
 
-<a href="http://www.youtube.com/@SergioVadilloLora1" target="_blank" rel="noopener">
+<a href="http://www.youtube.com/@SergioVadilloLora1" target="_blank">
 <i class="fab fa-youtube"></i> YouTube de Sergio Vadillo
 </a>
-
 </div>
 
-<!-- REDES SOCIEDAD VALIENTE -->
-
-<div class="section-title">
-Redes Sociales de Sociedad Valiente
-</div>
+<!-- REDES SV -->
+<div class="section-title">Redes Sociales de Sociedad Valiente</div>
 
 <div class="social-bar">
 
-<a href="https://www.facebook.com/SociedadValiente" target="_blank" rel="noopener" title="Facebook de Sociedad Valiente">
+<a href="https://www.facebook.com/SociedadValiente" target="_blank">
 <i class="fab fa-facebook"></i>
 </a>
 
-<a href="https://wa.me/529997478671?text=Hola%2C%20vengo%20desde%20la%20p%C3%A1gina%20de%20cuponera.sociedadvaliente.mx%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener" title="WhatsApp de Sociedad Valiente">
+<a href="https://wa.me/529997478671" target="_blank">
 <i class="fab fa-whatsapp"></i>
 </a>
 
-<a href="https://www.instagram.com/sociedadvaliente_mid/" target="_blank" rel="noopener" title="Instagram de Sociedad Valiente">
+<a href="https://www.instagram.com/sociedadvaliente_mid/" target="_blank">
 <i class="fab fa-instagram"></i>
 </a>
 
-<a href="https://www.tiktok.com/@sociedadvaliente_25" target="_blank" rel="noopener" title="TikTok de Sociedad Valiente">
+<a href="https://www.tiktok.com/@sociedadvaliente_25" target="_blank">
 <i class="fab fa-tiktok"></i>
 </a>
 
 </div>
 
-<img src="images/favicon.png" class="logo-icon">
+<!-- ICONO -->
+<img src="images/favicon.png" class="logo-icon" alt="Ícono SV">
 
 <footer>
 © 2026 Sociedad Valiente
 </footer>
-
-</div>
 
 </body>
 </html>
